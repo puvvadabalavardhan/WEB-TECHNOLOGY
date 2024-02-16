@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Details</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Arial', sans-serif;
+            font-weight: bold;
+        }
+
+        h1 {
+            color: #ffffff;
+            text-align: center;
+            letter-spacing: 20px;
+        }
+
+        h2 {
+            color: #0d47a1;
+        }
+
+        h3 {
+            color: #1565c0;
+            text-align: center;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        a {
+            color: #00695c;
+            text-decoration: none;
+            font-weight: bold;
+            background-color: #e0f2f1;
+            padding: 3px 5px;
+            border-radius: 3px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            background-color: #004d40;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="w3-container">
+            <h1 class="w3-center w3-animate-bottom" style="background-color:rgb(244, 11, 11);">BALA VARDHAN </h1>
+        </div>
+        <h3>AP22110010354</h3>
+        <img src="bunny_vespa.jpg" alt="Me" height="400" width="300">
+    </header>
+
+    <main>
+        <p><em>I'm Bala vardhan from section F studying in SRM university ap, Aspiring software professional seeking
+                challenging opportunities on cutting-edge technologies. Balavardhan_puvvada@srmap.edu.in |
+                +91 7386604848.
+            </em></p>
+
+        <div class="w3-container w3-teal">
+            <h2>Skills and Experiences </h2>
+        </div>
+
+        <p><em>Good knowledge in Python and currently Learning SQL for my <u>Data science career</u>!</em></p>
+
+        <h2>Programming Languages known</h2>
+        <ul>
+            <li>c</li>
+            <li>c++</li>
+            <li>python</li>
+            <li>SQL</li>
+        </ul>
+
+        <h2>Education Details</h2>
+        <table border="1">
+            <tr>
+                <th>Secondary (X)</th>
+                <th>Higher Secondary (XII)</th>
+                <th>Bachelor Of Engg (CSE)</th>
+            </tr>
+            <tr>
+                <td>Bhashyam High school, Vijayawada </td>
+                <td>Sarada Junior College, Vijayawada</td>
+                <td>SRM university ap</td>
+            </tr>
+            <tr>
+                <td>2020</td>
+                <td>2022</td>
+                <td>2022-2026</td>
+            </tr>
+        </table>
+    </main>
+
+    <footer>
+        <h2>Social Profiles </h2>
+        <p>Linkedin: <a href="https://www.linkedin.com/in/bala-vardhan-puvvada-
+                343867258?utm_source=share&amp;utm_campaign=share_via&amp;utm_content=profile&amp;utm_medium=ios_app"
+                target="_blank">Linkedin Profile</a></p>
+        <p>Gihub: <a href="https://github.com/puvvadabalavardhan" target="_blank">Github profile</a></p>
+    </footer>
+</body>
+</html>
+
